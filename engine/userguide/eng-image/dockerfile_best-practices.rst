@@ -599,7 +599,7 @@ WORKDIR
 
 .. For clarity and reliability, you should always use absolute paths for your WORKDIR. Also, you should use WORKDIR instead of proliferating instructions like RUN cd … && do-something, which are hard to read, troubleshoot, and maintain.
 
-明確さと信頼性のため、常に ``WORKDIR`` からの絶対パスを使うべきです。また、 ``RUN cd ... && 何らかの処理`` のような読みにくくデバッグもメンテも困難で増殖していく命令の代わりにも、 ``WORKDIR`` を使うべきです。
+明確さと信頼性のため、``WORKDIR`` には常に絶対パスを使うべきです。また、 ``RUN cd ... && 何らかの処理`` のような読みにくくデバッグもメンテも困難で増殖していく命令の代わりにも、 ``WORKDIR`` を使うべきです。
 
 .. ONBUILD
 
